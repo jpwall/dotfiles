@@ -162,3 +162,6 @@ client.focused 	 	   #770c1a 	   #c90000 	#000000 #c90000
 client.focused_inactive	   #ff6e6e	   #ff6e6e	#000000	#ff6e6e
 client.unfocused	   #675f5f	   #201f1f	#c90000	#201f1f
 client.urgent		   #a96600	   #f09201	#000000	#f09201
+
+# set the background on start
+exec --no-startup-id feh --bg-scale ~/Downloads/background1.jpg
