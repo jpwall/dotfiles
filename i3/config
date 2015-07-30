@@ -173,3 +173,5 @@ client.urgent		   #a96600	   #f09201	#000000	#f09201
 
 # set the background on start
 exec --no-startup-id feh --bg-scale ~/Downloads/background1.jpg
+# start gsettings so that volume controls works
+exec --no-startup-id gsettings
