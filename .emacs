@@ -18,7 +18,7 @@
 (autoload 'js2-msode "js2-mode" nil t)
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
 (add-to-list 'auto-mode-alist '("\\.js$\\'" . js2-mode))
-(add-to-list 'interpreter-mode-alist '("node" . js-2mode))
+(add-to-list 'interpreter-mode-alist '("node" . js2-mode))
 (setq js2-include-node-externs t)
 
 
