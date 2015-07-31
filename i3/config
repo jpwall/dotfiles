@@ -22,6 +22,14 @@ gaps inner 13
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Change volume
+# Mute/unmute
+bindsym $mod+y exec "pactl set-sink-mute 1 toggle"
+# Raise
+bindsym $mod+t exec "pactl set-sink-volume 1 +5%"
+# Lower
+bindsym $mod+g exec "pactl set-sink-volume 1 -5%"
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
@@ -98,7 +106,7 @@ bindsym $mod+0 workspace 10
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace 1
-bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+2 move container to workspace bindsym
 bindsym $mod+Shift+3 move container to workspace 3
 bindsym $mod+Shift+4 move container to workspace 4
 bindsym $mod+Shift+5 move container to workspace 5
@@ -166,3 +174,6 @@ client.urgent		   #a96600	   #f09201	#000000	#f09201
 # set the background on start
 exec --no-startup-id feh --bg-scale ~/Downloads/background1.jpg
 exec --no-startup-id setxkbmap us
+
+# start gsettings so that volume controls works
+exec --no-startup-id gsettings
