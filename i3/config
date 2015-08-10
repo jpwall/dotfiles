@@ -160,7 +160,7 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-	status_command xbacklight
+	status_command i3status
 	position bottom
 	font pango:Droid Sans 10
 	colors {
