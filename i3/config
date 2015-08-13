@@ -22,6 +22,9 @@ gaps inner 13
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Lock computer
+bindsym $mod+i exec "i3lock -f"
+
 # Change volume
 # Mute/unmute
 bindsym $mod+y exec "pactl set-sink-mute 1 toggle"
