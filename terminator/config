@@ -1,0 +1,35 @@
+[global_config]
+  always_split_with_profile = True
+  focus = mouse
+  title_transmit_fg_color = "#d2d2d2"
+  title_inactive_fg_color = "#d2d2d2"
+  title_receive_bg_color = "#f000ff"
+  title_transmit_bg_color = "#5a0083"
+  title_receive_fg_color = "#d2d2d2"
+  title_inactive_bg_color = "#36004f"
+[keybindings]
+[profiles]
+  [[default]]
+    background_image = None
+    background_darkness = 0.7
+    cursor_shape = underline
+    scrollbar_position = hidden
+    cursor_color = "#9097d2"
+    background_type = transparent
+    font = Droid Sans 12
+  [[Test]]
+    background_image = None
+    background_darkness = 0.71
+    cursor_shape = underline
+    cursor_color = "#8e94fc"
+    foreground_color = "#ffffff"
+    background_type = transparent
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
