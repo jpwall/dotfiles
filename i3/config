@@ -22,6 +22,9 @@ gaps inner 13
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Shut down computer
+bindsym $mod+q exec "poweroff"
+
 # Lock computer
 bindsym $mod+i exec "i3lock -f"
 
