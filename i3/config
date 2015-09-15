@@ -187,5 +187,5 @@ client.urgent		   #f000ff	   #f000ff	#d2d2d2	#f000ff
 exec --no-startup-id feh --bg-scale ~/Downloads/background1.jpg
 exec --no-startup-id setxkbmap us
 
-# start gsettings so that volume controls works
-exec --no-startup-id gsettings
+# start program to manage volume
+exec --no-startup-id volumeicon 
