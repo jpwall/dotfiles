@@ -168,7 +168,7 @@ bindsym $mod+r mode "resize"
 bar {
 	status_command i3status
 	position bottom
-	font pango: Droid Sans, FontAwesome 10
+	font pango: Droid Sans, FontAwesome 11
 	colors {
 	       background #002f63
 	       statusline #ffaf4c
