@@ -189,3 +189,6 @@ exec --no-startup-id setxkbmap us
 
 # start program to manage volume
 exec --no-startup-id volumeicon 
+
+# start NetworkManager to manage WiFi
+exec --no-startup-id nm-applet
