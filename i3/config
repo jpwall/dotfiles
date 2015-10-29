@@ -22,6 +22,9 @@ gaps inner 13
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Reboot computer
+bindsym $mod+r exec "reboot"
+
 # Shut down computer
 bindsym $mod+q exec "poweroff"
 
@@ -192,3 +195,6 @@ exec --no-startup-id volumeicon
 
 # start NetworkManager to manage WiFi
 exec --no-startup-id nm-applet
+
+# start xscreensaver for screensavers
+exec --no-startup-id xscreensaver
