@@ -23,7 +23,7 @@ gaps inner 13
 floating_modifier $mod
 
 # Reboot computer
-bindsym $mod+r exec "reboot"
+bindsym $mod+w exec "reboot"
 
 # Shut down computer
 bindsym $mod+q exec "poweroff"
