@@ -9,3 +9,6 @@ prompt clint
 #PROMPT=%{%M@$fg[blue]%n}%#
 
 autoload -U colors && colors
+
+# Previous items carried over from .bashrc
+export PATH=${PATH}:~/bin
