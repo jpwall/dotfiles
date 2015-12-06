@@ -21,4 +21,4 @@
 (add-to-list 'interpreter-mode-alist '("node" . js2-mode))
 (setq js2-include-node-externs t)
 
-
+(require 'tramp) (setq tramp-default-method "ssh")
