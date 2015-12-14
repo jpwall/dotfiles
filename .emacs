@@ -23,3 +23,4 @@
 
 (require 'tramp) (setq tramp-default-method "ssh")
 (require 'erc)
+(require 'tls)
