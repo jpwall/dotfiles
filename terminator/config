@@ -23,7 +23,7 @@
     background_image = None
     background_type = transparent
     cursor_color = "#9097d2"
-    cursor_shape = underline
+    cursor_shape = block
     font = Droid Sans 12
     scrollbar_position = hidden
   [[Test]]
