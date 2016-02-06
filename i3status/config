@@ -22,8 +22,8 @@ order += "battery 0"
 order += "tztime local"
 
 wireless _first_ {
-        format_up = "  %quality at %essid"
-        format_down = "  down"
+        format_up = "  %quality at %essid"
+        format_down = "  down"
 }
 
 ethernet _first_ {
@@ -33,7 +33,7 @@ ethernet _first_ {
 }
 
 battery 0 {
-        format = " %status %percentage %remaining"
+        format = " %status %percentage %remaining"
 }
 
 #run_watch DHCP {
@@ -45,13 +45,13 @@ battery 0 {
 #}
 
 tztime local {
-        format = "%m/%d/%Y %H:%M:%S "
+        format = "%m/%d/%Y %H:%M:%S "
 }
 
 load {
-        format = " %1min"
+        format = " %1min"
 }
 
 disk "/" {
-        format = " %avail"
+        format = " %avail"
 }
