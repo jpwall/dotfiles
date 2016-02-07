@@ -6,6 +6,11 @@ compinit
 autoload -U promptinit
 promptinit
 prompt clint
+
+# For syntax highlighting
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
 #PROMPT=%{%M@$fg[blue]%n}%#
 
 autoload -U colors && colors
