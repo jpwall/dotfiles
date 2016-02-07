@@ -19,6 +19,12 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+;; hide menu and tool bar on startup in X-window mode
+(if window-system
+    (tool-bar-mode -1)
+)
+(menu-bar-mode -1)
+  
 
 ;; set up js2-mode
 (autoload 'js2-msode "js2-mode" nil t)
