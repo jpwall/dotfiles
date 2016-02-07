@@ -169,17 +169,17 @@ bar {
 	position bottom
 	font pango: Droid Sans, FontAwesome 11
 	colors {
-	       background #2f2f2f
-	       statusline #b44b4b
-	       separator #ffffff
+	       background #3f3f3f
+	       statusline #d62c2c
+	       separator #999999
 	}
 }
 
 # make the color different than default
 # class	   	 	   border	   backgr.	text	indicator
-client.focused 	 	   #292929 	   #292929 	#b44b4b #292929
-client.focused_inactive	   #292929	   #292929	#b44b4b	#292929
-client.unfocused	   #2f2f2f	   #2f2f2f	#b44b4b	#2f2f2f
+client.focused 	 	   #2f2f2f 	   #2f2f2f 	#d62c2c #2f2f2f
+client.focused_inactive	   #2f2f2f	   #2f2f2f	#d62c2c	#2f2f2f
+client.unfocused	   #4f4f4f	   #4f4f4f	#d62c2c	#4f4f4f
 client.urgent		   #f000ff	   #f000ff	#d2d2d2	#f000ff
 
 # set the background on start
