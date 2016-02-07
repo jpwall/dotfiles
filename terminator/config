@@ -1,12 +1,12 @@
 [global_config]
   always_split_with_profile = True
   focus = mouse
-  title_inactive_bg_color = "#2f2f2f"
-  title_inactive_fg_color = "#b44b4b"
+  title_inactive_bg_color = "#4f4f4f"
+  title_inactive_fg_color = "#d62c2c"
   title_receive_bg_color = "#f000ff"
   title_receive_fg_color = "#d2d2d2"
-  title_transmit_bg_color = "#292929"
-  title_transmit_fg_color = "#b44b4b"
+  title_transmit_bg_color = "#2f2f2f"
+  title_transmit_fg_color = "#d62c2c"
 [keybindings]
 [layouts]
   [[default]]
@@ -22,7 +22,7 @@
     background_darkness = 0.8
     background_image = None
     background_type = transparent
-    cursor_color = "#b44b4b"
+    cursor_color = "#d62c2c"
     cursor_shape = block
     font = Droid Sans 12
     scrollbar_position = hidden
