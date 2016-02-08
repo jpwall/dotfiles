@@ -31,6 +31,7 @@
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
 (add-to-list 'auto-mode-alist '("\\.js$\\'" . js2-mode))
 (add-to-list 'interpreter-mode-alist '("node" . js2-mode))
+(setq js2-include-node-externs t)
 
 ;; set up ERC for use with ZNC
 ;; secret keeping method from https://github.com/strugee/dots/.emacs
