@@ -1,6 +1,7 @@
 [global_config]
   always_split_with_profile = True
   focus = mouse
+  suppress_multiple_term_dialog = True
   title_inactive_bg_color = "#4f4f4f"
   title_inactive_fg_color = "#d62c2c"
   title_receive_bg_color = "#f000ff"
@@ -23,6 +24,5 @@
     background_image = None
     background_type = transparent
     cursor_color = "#d62c2c"
-    cursor_shape = block
     font = Droid Sans 12
     scrollbar_position = hidden
