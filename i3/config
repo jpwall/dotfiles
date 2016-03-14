@@ -194,3 +194,6 @@ exec --no-startup-id nm-applet
 
 # start xscreensaver for screensavers
 exec --no-startup-id xscreensaver
+
+# start compton
+exec --no-startup-id compton
