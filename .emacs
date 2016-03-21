@@ -38,19 +38,6 @@
 ;; secret keeping method from https://github.com/strugee/dots/.emacs
 (require 'erc)
 (require 'tls)
-;;(require 'znc)
-(setq znc-password (let ((secret (plist-get (nth 0 (auth-source-search :max 1
-								       :host 'znc.strugee.net
-								       :require '(:secret)
-								       :create t))
-					    :secret)))
-		     (if (functionp secret)
-			 (funcall secret)
-		       secret)))
-
-(setq znc-servers
-      `(("znc.strugee.net" 7000 t
-	 ((freenode "jpwall" ,znc-password)))))
 
 ;; MELPA setup
 (require 'package) ;; You might already have this line
