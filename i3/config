@@ -27,6 +27,10 @@ bindsym $mod+q exec "poweroff"
 # Lock computer
 bindsym $mod+i exec "i3lock -f"
 
+# Switch between Dvorak and Qwerty
+bindsym $mod+Shift+n exec setxkbmap -variant dvorak
+bindsym $mod+Shift+b exec setxkbmap us
+
 # Change volume
 # Mute/unmute
 bindsym $mod+y exec "pactl set-sink-mute 1 toggle"
