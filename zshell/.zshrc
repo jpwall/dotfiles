@@ -5,7 +5,7 @@ compinit
 
 autoload -U promptinit
 promptinit
-prompt adam1 black
+prompt adam1 red
 
 # For syntax highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
