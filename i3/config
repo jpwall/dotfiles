@@ -9,6 +9,8 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
+for_window [class="^.*"] border pixel 2
+
 set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -108,9 +110,9 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # switch to workspace
-bindsym mod4+1 workspace 1
-bindsym mod4+2 workspace 2
-bindsym mod4+3 workspace 3
+bindsym mod4+1 workspace 1 web
+bindsym mod4+2 workspace 2 terminal
+bindsym mod4+3 workspace 3 fs
 bindsym mod4+4 workspace 4
 bindsym mod4+5 workspace 5
 bindsym mod4+6 workspace 6
@@ -120,9 +122,9 @@ bindsym mod4+9 workspace 9
 bindsym mod4+0 workspace 10
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1
-bindsym $mod+Shift+2 move container to workspace bindsym
-bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+1 move container to workspace 1 web
+bindsym $mod+Shift+2 move container to workspace 2 terminal
+bindsym $mod+Shift+3 move container to workspace 3 fs
 bindsym $mod+Shift+4 move container to workspace 4
 bindsym $mod+Shift+5 move container to workspace 5
 bindsym $mod+Shift+6 move container to workspace 6
