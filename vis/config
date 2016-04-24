@@ -1,0 +1,8 @@
+visualizer.spectrum.top.margin=0.0
+visualizer.spectrum.bottom.margin=0.0
+visualizer.spectrum.right.margin=0.0
+visualizer.spectrum.left.margin=0.0
+
+visualizer.spectrum.smoothing.mode=sgs
+visualizer.spectrum.bar.width=1
+colors.scheme=theme
