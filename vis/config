@@ -4,6 +4,6 @@ visualizer.spectrum.right.margin=0.0
 visualizer.spectrum.left.margin=0.0
 
 visualizer.spectrum.smoothing.mode=sgs
-visualizer.spectrum.bar.width=1
+visualizer.spectrum.bar.width=4
 visualizer.spectrum.falloff.mode=top
 colors.scheme=theme
