@@ -112,8 +112,8 @@ bindsym $mod+a focus parent
 # switch to workspace
 bindsym mod4+1 workspace 1 web
 bindsym mod4+2 workspace 2 terminal
-bindsym mod4+3 workspace 3 emacs
-bindsym mod4+4 workspace 4
+bindsym mod4+3 workspace 3 ssh
+bindsym mod4+4 workspace 4 emacs
 bindsym mod4+5 workspace 5
 bindsym mod4+6 workspace 6
 bindsym mod4+7 workspace 7
@@ -124,8 +124,8 @@ bindsym mod4+0 workspace 10
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace 1 web
 bindsym $mod+Shift+2 move container to workspace 2 terminal
-bindsym $mod+Shift+3 move container to workspace 3 emacs
-bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+3 move container to workspace 3 ssh
+bindsym $mod+Shift+4 move container to workspace 4 emacs
 bindsym $mod+Shift+5 move container to workspace 5
 bindsym $mod+Shift+6 move container to workspace 6
 bindsym $mod+Shift+7 move container to workspace 7
