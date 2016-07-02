@@ -58,3 +58,4 @@
 
 ;; autostart programs
 (nyan-mode)
+(global-linum-mode)
