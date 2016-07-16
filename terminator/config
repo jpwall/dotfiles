@@ -23,7 +23,7 @@
     background_darkness = 0.9
     background_image = None
     background_type = transparent
-    cursor_color = "#8888ff"
+    cursor_color = "#ffeede"
     background_color = "#2D3232"
     font = Droid Sans 12
     scrollbar_position = hidden
