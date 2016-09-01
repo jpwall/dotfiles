@@ -59,3 +59,4 @@
 ;; autostart programs
 (nyan-mode)
 (global-linum-mode)
+(set-face-attribute 'default nil :height 140)
