@@ -14,7 +14,7 @@ antigen bundle git
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle chrissicool/zsh-256color
 
-antigen theme blinks
-
+#antigen theme blinks
+antigen theme dpoggi
 antigen apply
 # END ANTIGEN CONFIG
