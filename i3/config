@@ -176,7 +176,7 @@ bar {
 	position bottom
 	font pango: Droid Sans, FontAwesome 11
 	colors {
-	       background #3f3f3f00
+	       background #00000000
 	       statusline #000000
 	       focused_workspace #000000 #999999 #000000
 	       inactive_workspace #000000 #00000022 #000000
