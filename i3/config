@@ -174,12 +174,12 @@ bar {
 	i3bar_command i3bar -t
 	status_command i3status
 	position bottom
-	font pango: Droid Sans, FontAwesome 11
+	font pango: Droid Sans, FontAwesome 12
 	colors {
-	       background #00000000
-	       statusline #000000
-	       focused_workspace #000000 #999999 #000000
-	       inactive_workspace #000000 #00000022 #000000
+	       background #68C6CEDD
+	       statusline #3C255B
+	       focused_workspace #3C255B #FFEA47 #3C255B
+	       inactive_workspace #3C255B #FFEA4766 #3C255B
 	       urgent_workspace #000000 #00000022 #FF7700
 	}
 }
@@ -192,7 +192,7 @@ client.unfocused	   #4f4f4f	   #4f4f4f	#d62c2c	#4f4f4f
 client.urgent		   #f000ff	   #f000ff	#d2d2d2	#f000ff
 
 # set the background on start
-exec --no-startup-id feh --bg-scale ~/Downloads/cloudsAF1080.jpg
+exec --no-startup-id feh --bg-scale ~/Downloads/autumnInsane.jpg
 exec --no-startup-id setxkbmap us
 
 # start program to manage volume
