@@ -38,8 +38,15 @@ bindsym $mod+Shift+b exec setxkbmap us
 bindsym $mod+y exec "pactl set-sink-mute 1 toggle"
 # Raise
 bindsym $mod+t exec "pactl set-sink-volume 1 +5%"
+bindsym $mod+Shift+t exec "pactl set-sink-volume 1 +2%"
 # Lower
 bindsym $mod+g exec "pactl set-sink-volume 1 -5%"
+bindsym $mod+Shift+g exec "pactl set-sink-volume 1 -2%"
+# For headphones level
+bindsym $mod+Shift+h exec "pactl set-sink-volume 1 18%"
+# For speaker level
+bindsym $mod+Shift+s exec "pactl set-sink-volume 1 100%"
+
 
 # Screen brightness
 # Raise
@@ -199,7 +206,7 @@ exec --no-startup-id setxkbmap us
 exec --no-startup-id volumeicon 
 
 # start NetworkManager to manage WiFi
-exec --no-startup-id nm-applet
+#exec --no-startup-id nm-applet
 
 # start xscreensaver for screensavers
 exec --no-startup-id xscreensaver
