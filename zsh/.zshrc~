@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/home/jpwall/.oh-my-zsh
-export PATH=$PATH:~/bin
+
 # OLD CONFIGS THAT AREN'T NECESSARY.
 #plugins=(git)
 #source $ZSH/oh-my-zsh.sh

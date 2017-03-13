@@ -35,17 +35,17 @@ bindsym $mod+Shift+b exec setxkbmap us
 
 # Change volume
 # Mute/unmute
-bindsym $mod+y exec "pactl set-sink-mute 1 toggle"
+bindsym $mod+y exec "pactl set-sink-mute 0 toggle"
 # Raise
-bindsym $mod+t exec "pactl set-sink-volume 1 +5%"
-bindsym $mod+Shift+t exec "pactl set-sink-volume 1 +2%"
+bindsym $mod+t exec "pactl set-sink-volume 0 +5%"
+bindsym $mod+Shift+t exec "pactl set-sink-volume 0 +2%"
 # Lower
-bindsym $mod+g exec "pactl set-sink-volume 1 -5%"
-bindsym $mod+Shift+g exec "pactl set-sink-volume 1 -2%"
+bindsym $mod+g exec "pactl set-sink-volume 0 -5%"
+bindsym $mod+Shift+g exec "pactl set-sink-volume 0 -2%"
 # For headphones level
-bindsym $mod+Shift+h exec "pactl set-sink-volume 1 18%"
+bindsym $mod+Shift+h exec "pactl set-sink-volume 0 18%"
 # For speaker level
-bindsym $mod+Shift+s exec "pactl set-sink-volume 1 100%"
+bindsym $mod+Shift+s exec "pactl set-sink-volume 0 100%"
 
 
 # Screen brightness
@@ -180,13 +180,14 @@ bindsym $mod+r mode "resize"
 bar {
 	i3bar_command i3bar -t
 	status_command i3status
-	position bottom
+	position top
 	font pango: Droid Sans, FontAwesome 12
 	colors {
-	       background #3C255B
-	       statusline #FFEA47
-	       inactive_workspace #FFEA47 #3C255B #FFEA47
-	       focused_workspace #68C6CE #3C255B #68C6CE
+	       background #3C255B00
+#	       background #322536
+	       statusline #fecda2
+	       inactive_workspace #e75838 #2c2247 #e75838
+	       focused_workspace #fecda2 #2c2247 #fecda2
 	       urgent_workspace #000000 #00000022 #FF7700
 	}
 }
@@ -199,7 +200,7 @@ client.unfocused	   #4f4f4f	   #4f4f4f	#d62c2c	#4f4f4f
 client.urgent		   #f000ff	   #f000ff	#d2d2d2	#f000ff
 
 # set the background on start
-exec --no-startup-id feh --bg-scale ~/Downloads/autumnInsane.jpg
+exec --no-startup-id feh --bg-scale ~/Downloads/background3.jpg
 exec --no-startup-id setxkbmap us
 
 # start program to manage volume

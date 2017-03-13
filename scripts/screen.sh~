@@ -1,0 +1,20 @@
+#!/bin/sh
+
+if [$1 = 'far']
+then
+    
+    echo 'Changing resolution to 1408x792'
+    xrandr --output eDP-1 --mode 1408x792_60.00
+    exit 0
+else
+    echo 'Specify a valid argument of close or far'
+    exit 1
+fi
+if [$1 = 'close']
+then
+    echo 'Changing resolution to default'
+    xrandr --output eDP-1 --mode 1920x1080
+else
+    echo 'Specify a valid argument of close or far'
+    exit 1
+fi

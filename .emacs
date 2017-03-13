@@ -12,6 +12,9 @@
    (quote
     ("01ce486c3a7c8b37cf13f8c95ca4bb3c11413228b35676025fdf239e77019ea1" default)))
  '(inhibit-startup-screen t)
+ '(package-selected-packages
+   (quote
+    (## jade-mode znc ws-butler window-numbering which-key volatile-highlights vi-tilde-fringe use-package spacemacs-theme spaceline smooth-scrolling reykjavik-theme restart-emacs rainbow-delimiters quelpa popwin popup persp-mode pcre2el paradox page-break-lines open-junk-file nyan-mode neotree move-text macrostep lorem-ipsum linum-relative leuven-theme js2-mode info+ indent-guide ido-vertical-mode hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make helm-flx helm-descbinds helm-ag google-translate golden-ratio flx-ido fill-column-indicator fancy-battery expand-region exec-path-from-shell evil-visualstar evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state evil-jumper evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-args evil-anzu eval-sexp-fu ess elisp-slime-nav define-word clean-aindent-mode buffer-move auto-highlight-symbol auto-compile auctex aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line)))
  '(znc-servers znc-servers))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -56,7 +59,15 @@
 (setq TeX-parse-self t)
 (setq-default TeX-master nil)
 
-;; autostart programs
+;; set up jade mode
+(add-to-list 'load-path "~/.emacs.d/vendor/jade-mode")
+(require 'sws-mode)
+(require 'jade-mode)
+(add-to-list 'auto-mode-alist '("\\.styl\\'" . sws-mode))
+
+;; autostart programs and configurations
 (nyan-mode)
 (global-linum-mode)
-(set-face-attribute 'default nil :height 140)
+(set-face-attribute 'default nil :height 120)
+(setq-default indent-tabs-mode t)
+(setq tab-width 4)
