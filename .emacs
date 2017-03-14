@@ -10,7 +10,7 @@
  '(custom-enabled-themes (quote (tsdh-dark)))
  '(custom-safe-themes
    (quote
-    ("01ce486c3a7c8b37cf13f8c95ca4bb3c11413228b35676025fdf239e77019ea1" default)))
+    ("fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "01ce486c3a7c8b37cf13f8c95ca4bb3c11413228b35676025fdf239e77019ea1" default)))
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
@@ -51,8 +51,9 @@
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize) ;; You might already have this line
 
-;; load theme reykjavik
-(load-theme 'reykjavik)
+;; load theme spacemacs dark
+;;(load-theme 'reykjavik)
+(load-theme 'spacemacs-dark)
 
 ;; set up AUCTeX
 (setq TeX-auto-save t)
