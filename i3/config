@@ -60,9 +60,9 @@ bindsym $mod+Return exec i3-sensible-terminal
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# start dmenu (a program launcher)
-bindsym $mod+d exec rofi -i -lines 8 -show run -config ~/dotfiles/rofi/config
-
+# start rofi (a program launcher)
+bindsym $mod+d exec rofi -i -lines 6 -location 3 -width 450 -show run -config ~/dotfiles/rofi/config
+#bindsym $mod+d exec dmenu_run -l 10 -nb "#2f2f2f" -nf "#b44b4b" -sb "#252525" -sf "#aaa"
 # For if i3-dmenu-desktop is ever used
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
