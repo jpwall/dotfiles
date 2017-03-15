@@ -47,6 +47,8 @@ bindsym $mod+Shift+h exec "pactl set-sink-volume 0 18%"
 # For speaker level
 bindsym $mod+Shift+s exec "pactl set-sink-volume 0 100%"
 
+# Take screenshot
+bindsym $mod+z exec "scrot ~/Pictures/Screenshots/%b%d::%H%M%S.png"
 
 # Screen brightness
 # Raise
